@@ -134,7 +134,7 @@
   font-size: 1em;
   font-family: 'Yantramanav', sans-serif;
 }
-@media screen and (max-width: 1366px){
+@media screen and (min-width:800px) and (max-width: 1366px){
   .body{
     height: 100vh;
   }
