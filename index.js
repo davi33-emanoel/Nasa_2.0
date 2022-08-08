@@ -61,3 +61,4 @@ fetch(url)
 .catch (function (err) {
   
 });
+dataResult.max = new Date().toISOString().split("T")[0];

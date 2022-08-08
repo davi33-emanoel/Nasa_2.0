@@ -134,6 +134,10 @@
   font-size: 1em;
   font-family: 'Yantramanav', sans-serif;
 }
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
 @media screen and (min-width:800px) and (max-width: 1366px){
   .body{
     height: 100%;
